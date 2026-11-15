@@ -1,0 +1,62 @@
+{
+  "seed": 42,
+  "features": [
+    "gender",
+    "race_ethnicity",
+    "parental_level_of_education",
+    "lunch",
+    "test_preparation_course"
+  ],
+  "excluded_for_leakage": [
+    "math_score",
+    "reading_score",
+    "writing_score",
+    "average_score"
+  ],
+  "class_names": [
+    "Alto",
+    "Bajo",
+    "Medio"
+  ],
+  "deployed_model": "MLP profundo",
+  "model_artifact": "best_mlp_model.keras",
+  "selection_metric": "f1_macro",
+  "best_epoch": 2,
+  "test_loss": 1.1473968029022217,
+  "test_accuracy": 0.5133333206176758,
+  "test_f1_macro": 0.2548548548548549,
+  "comparison": [
+    {
+      "modelo": "Regresión logística",
+      "accuracy": 0.44666666666666666,
+      "precision_macro": 0.46569648898747507,
+      "recall_macro": 0.5011174871639987,
+      "f1_macro": 0.448391127772571,
+      "loss": 0.0
+    },
+    {
+      "modelo": "MLP profundo",
+      "accuracy": 0.5133333333333333,
+      "precision_macro": 0.5057471264367815,
+      "recall_macro": 0.34017920064431695,
+      "f1_macro": 0.2548548548548549,
+      "loss": 1.1473968029022217
+    },
+    {
+      "modelo": "Dummy",
+      "accuracy": 0.5133333333333333,
+      "precision_macro": 0.1711111111111111,
+      "recall_macro": 0.3333333333333333,
+      "f1_macro": 0.2261380323054332,
+      "loss": 0.0
+    }
+  ],
+  "runtime_versions": {
+    "python": "3.13.18",
+    "tensorflow": "2.21.0",
+    "numpy": "2.4.6",
+    "pandas": "2.2.3",
+    "scikit_learn": "1.6.1",
+    "joblib": "1.6.0"
+  }
+}
