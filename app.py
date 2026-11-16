@@ -86,12 +86,16 @@ def add_box(ax, x, y, width, height, title, body, color="#EAF2FF", body_size=8.2
         transform=ax.transAxes
     )
     ax.add_patch(patch)
-    ax.text(x+.015, y+height-.025, title, transform=ax.transAxes,
-            fontsize=12, fontweight="bold", color="#12385B", va="top")
-    wrap_width = max(28, int(width*105))
+    center_x = x + width / 2
+    ax.text(center_x, y+height-.025, title, transform=ax.transAxes,
+            fontsize=12, fontweight="bold", color="#12385B",
+            va="top", ha="center")
+    wrap_width = max(28, int(width*100))
     wrapped = "\n".join(textwrap.fill(p, width=wrap_width) for p in str(body).split("\n"))
-    ax.text(x+.015, y+height-.060, wrapped, transform=ax.transAxes,
-            fontsize=body_size, color="#263238", va="top", linespacing=1.22)
+    if str(body).strip():
+        ax.text(center_x, y+height-.060, wrapped, transform=ax.transAxes,
+                fontsize=body_size, color="#263238", va="top", ha="center",
+                linespacing=1.22)
 
 def create_poster(team, app_url, video_url, app_preview=None):
     fig = plt.figure(figsize=(11.69,16.54), dpi=150, facecolor="#F6F9FC")
@@ -127,7 +131,7 @@ def create_poster(team, app_url, video_url, app_preview=None):
         if i<len(steps)-1:
             ax.annotate("",xy=(x+box_w+gap*.85,.564),xytext=(x+box_w+.002,.564),
                         arrowprops=dict(arrowstyle="->",color="#C47F00",lw=1.2),xycoords=ax.transAxes,textcoords=ax.transAxes)
-    ax.text(.055,.523,"Etiqueta: promedio < 60 = Bajo | 60 a < 80 = Medio | ≥ 80 = Alto",fontsize=8,color="#5E4B00",transform=ax.transAxes)
+    ax.text(.5,.523,"Etiqueta: promedio < 60 = Bajo | 60 a < 80 = Medio | ≥ 80 = Alto",fontsize=8,color="#5E4B00",ha="center",transform=ax.transAxes)
 
     add_box(ax,.035,.365,.445,.125,"Arquitectura empleada: MLP",
         "MLP seleccionado porque el dataset es tabular. Dense 128 + ReLU + L2 → BatchNorm → Dropout 0.30 → Dense 64 + ReLU + L2 → BatchNorm → Dropout 0.20 → Dense 32 + ReLU → Softmax(3).","#F1ECFF",8.0)
@@ -142,7 +146,7 @@ def create_poster(team, app_url, video_url, app_preview=None):
         chart.tick_params(axis="both",labelsize=7); chart.grid(axis="x",alpha=.2)
 
     add_box(ax,.52,.215,.445,.125,"Vista previa de la aplicación Streamlit","","#EAF2FF")
-    preview=fig.add_axes([.545,.235,.395,.075]); preview.axis("off")
+    preview=fig.add_axes([.545,.224,.395,.068]); preview.axis("off")
     if app_preview is not None:
         try:
             image = Image.open(app_preview).convert("RGB")
@@ -153,10 +157,10 @@ def create_poster(team, app_url, video_url, app_preview=None):
     else:
         preview.add_patch(plt.Rectangle((0,0),1,1,facecolor="white",edgecolor="#8AA8C7"))
         preview.add_patch(plt.Rectangle((0,.78),1,.22,facecolor="#12385B"))
-        preview.text(.04,.89,"EduPredict AI",color="white",fontsize=10,fontweight="bold",va="center")
-        preview.text(.04,.62,"Predicción individual",fontsize=8,fontweight="bold")
-        preview.text(.04,.32,"Formulario socioeducativo  →  Nivel + probabilidades",fontsize=7)
-        preview.text(.04,.12,"Predicción | Métricas | Póster",fontsize=7,color="#415A77")
+        preview.text(.5,.89,"EduPredict AI",color="white",fontsize=10,fontweight="bold",va="center",ha="center")
+        preview.text(.5,.62,"Predicción individual",fontsize=8,fontweight="bold",ha="center")
+        preview.text(.5,.32,"Formulario socioeducativo  →  Nivel + probabilidades",fontsize=7,ha="center")
+        preview.text(.5,.12,"Predicción | Métricas | Póster",fontsize=7,color="#415A77",ha="center")
 
     add_box(ax,.035,.075,.58,.125,"Conclusiones",
         f"{best.get('modelo','N/D')} obtuvo el mayor F1 macro en la comparación. La predicción interactiva usa el MLP guardado como best_mlp_model.keras. Es un prototipo académico; para uso real requiere validación externa, calibración, análisis de sesgos y supervisión humana.","#FFF0F0",8.0)

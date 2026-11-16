@@ -1,151 +1,151 @@
 gender,race_ethnicity,parental_level_of_education,lunch,test_preparation_course,real,predicho,confianza,correcto,prob_alto,prob_bajo,prob_medio
-female,group C,some high school,free/reduced,none,Bajo,Medio,0.42749852,False,0.27356893,0.29893252,0.42749852
-female,group C,some high school,standard,none,Medio,Medio,0.4133996,True,0.3033727,0.2832277,0.4133996
-female,group D,associate's degree,standard,none,Medio,Medio,0.476216,True,0.2958863,0.22789769,0.476216
-female,group B,some high school,standard,completed,Medio,Alto,0.38035935,False,0.38035935,0.25030583,0.3693348
-female,group E,some college,standard,none,Medio,Medio,0.40717563,True,0.30073997,0.29208437,0.40717563
-female,group C,bachelor's degree,standard,none,Medio,Medio,0.42434305,True,0.27955514,0.2961018,0.42434305
-male,group E,associate's degree,standard,none,Medio,Medio,0.39604047,True,0.3050623,0.29889718,0.39604047
-male,group C,some high school,standard,completed,Medio,Medio,0.37708998,True,0.33350307,0.2894069,0.37708998
-female,group D,some high school,free/reduced,none,Bajo,Medio,0.38696712,False,0.30710426,0.3059286,0.38696712
-male,group A,some high school,standard,completed,Medio,Medio,0.38162944,True,0.33329302,0.2850775,0.38162944
-male,group E,some high school,standard,completed,Alto,Medio,0.38048705,False,0.35692447,0.2625886,0.38048705
-female,group E,associate's degree,free/reduced,none,Medio,Medio,0.42668462,True,0.3085623,0.26475307,0.42668462
-female,group B,high school,standard,completed,Medio,Medio,0.40924793,True,0.3483101,0.24244195,0.40924793
-female,group B,high school,free/reduced,completed,Medio,Medio,0.42226812,True,0.3031477,0.27458414,0.42226812
-female,group D,associate's degree,standard,none,Medio,Medio,0.476216,True,0.2958863,0.22789769,0.476216
-female,group E,some college,free/reduced,completed,Bajo,Medio,0.3884163,False,0.38272136,0.22886224,0.3884163
-female,group E,high school,standard,completed,Medio,Medio,0.4298434,True,0.3465369,0.22361965,0.4298434
-male,group A,high school,standard,none,Bajo,Medio,0.37725887,False,0.29605588,0.32668525,0.37725887
-female,group D,associate's degree,standard,completed,Alto,Medio,0.44230792,False,0.37413248,0.18355964,0.44230792
-female,group E,bachelor's degree,standard,completed,Medio,Medio,0.40858555,True,0.36251426,0.22890016,0.40858555
-male,group C,some college,free/reduced,completed,Medio,Medio,0.39403734,True,0.3142846,0.29167798,0.39403734
-male,group B,some college,free/reduced,completed,Medio,Medio,0.41693437,True,0.29520047,0.28786516,0.41693437
-female,group E,bachelor's degree,standard,none,Medio,Medio,0.41347894,True,0.2887743,0.29774678,0.41347894
-female,group C,high school,standard,none,Medio,Medio,0.4074697,True,0.27868184,0.31384838,0.4074697
-female,group E,associate's degree,standard,completed,Alto,Medio,0.42504066,False,0.38879845,0.18616079,0.42504066
-female,group D,associate's degree,standard,none,Alto,Medio,0.476216,False,0.2958863,0.22789769,0.476216
-female,group C,master's degree,standard,none,Medio,Medio,0.39899975,True,0.30312136,0.29787886,0.39899975
-female,group D,master's degree,standard,none,Alto,Medio,0.4312232,False,0.30285493,0.26592183,0.4312232
-male,group A,high school,free/reduced,none,Bajo,Bajo,0.3814213,True,0.24386734,0.3814213,0.3747114
-female,group D,bachelor's degree,standard,none,Alto,Medio,0.44013816,False,0.28029147,0.27957037,0.44013816
-female,group A,high school,free/reduced,completed,Bajo,Medio,0.41751885,False,0.33733016,0.24515091,0.41751885
-male,group C,some college,standard,completed,Medio,Medio,0.38290727,True,0.3283234,0.28876933,0.38290727
-male,group A,some college,free/reduced,none,Bajo,Bajo,0.36571306,True,0.2765537,0.36571306,0.3577332
-female,group C,some college,standard,none,Medio,Medio,0.42468956,True,0.28049695,0.29481345,0.42468956
-female,group B,associate's degree,standard,none,Medio,Medio,0.436344,True,0.31185728,0.2517987,0.436344
-male,group D,some college,standard,none,Bajo,Medio,0.4023367,False,0.2973586,0.30030474,0.4023367
-female,group B,high school,standard,none,Bajo,Medio,0.43195507,False,0.29093182,0.27711317,0.43195507
-male,group D,some college,standard,none,Medio,Medio,0.4023367,True,0.2973586,0.30030474,0.4023367
-female,group B,high school,free/reduced,completed,Bajo,Medio,0.42226812,False,0.3031477,0.27458414,0.42226812
-male,group B,some high school,standard,completed,Medio,Alto,0.37252283,False,0.37252283,0.27334872,0.35412848
-male,group B,associate's degree,standard,none,Medio,Medio,0.40154958,True,0.2887537,0.30969667,0.40154958
-female,group D,some college,standard,none,Alto,Medio,0.41806227,False,0.30150422,0.28043354,0.41806227
-female,group C,bachelor's degree,free/reduced,completed,Medio,Medio,0.3850668,True,0.3343677,0.28056547,0.3850668
-female,group E,some college,standard,completed,Medio,Medio,0.4173535,True,0.36665222,0.21599424,0.4173535
-female,group E,associate's degree,standard,none,Bajo,Medio,0.42959127,False,0.32357353,0.24683514,0.42959127
-female,group B,bachelor's degree,free/reduced,none,Alto,Medio,0.41349643,False,0.28710726,0.2993963,0.41349643
-male,group C,some college,standard,none,Alto,Medio,0.40416473,False,0.29378742,0.30204788,0.40416473
-male,group D,associate's degree,free/reduced,none,Medio,Medio,0.4425447,True,0.24597839,0.31147698,0.4425447
-female,group C,associate's degree,standard,none,Alto,Medio,0.4573494,False,0.2894958,0.25315478,0.4573494
-female,group B,high school,standard,none,Bajo,Medio,0.43195507,False,0.29093182,0.27711317,0.43195507
-female,group D,some college,free/reduced,none,Bajo,Medio,0.40856835,False,0.29651535,0.2949163,0.40856835
-female,group A,some high school,standard,none,Bajo,Medio,0.3719425,False,0.33275944,0.2952981,0.3719425
-female,group B,associate's degree,standard,none,Medio,Medio,0.436344,True,0.31185728,0.2517987,0.436344
-male,group C,high school,standard,none,Medio,Medio,0.38355196,True,0.28653353,0.32991448,0.38355196
-male,group B,bachelor's degree,free/reduced,none,Bajo,Medio,0.380243,False,0.26258114,0.3571759,0.380243
-male,group D,some high school,standard,none,Alto,Medio,0.37779424,False,0.3100847,0.31212103,0.37779424
-male,group B,bachelor's degree,free/reduced,none,Medio,Medio,0.380243,True,0.26258114,0.3571759,0.380243
-female,group D,some college,free/reduced,none,Alto,Medio,0.40856835,False,0.29651535,0.2949163,0.40856835
-female,group E,master's degree,free/reduced,none,Alto,Medio,0.4063638,False,0.30813703,0.28549924,0.4063638
-male,group D,high school,free/reduced,none,Bajo,Medio,0.4257964,False,0.2477529,0.32645068,0.4257964
-female,group E,associate's degree,standard,none,Alto,Medio,0.42959127,False,0.32357353,0.24683514,0.42959127
-male,group E,some high school,standard,completed,Bajo,Medio,0.38048705,False,0.35692447,0.2625886,0.38048705
-female,group D,master's degree,standard,completed,Medio,Medio,0.41825017,True,0.3675568,0.21419299,0.41825017
-male,group E,some college,standard,completed,Alto,Medio,0.39223415,False,0.35560486,0.25216103,0.39223415
-male,group B,associate's degree,standard,completed,Alto,Medio,0.3866885,False,0.35239345,0.26091802,0.3866885
-female,group D,high school,free/reduced,none,Bajo,Medio,0.4439611,False,0.272524,0.28351492,0.4439611
-female,group B,high school,standard,none,Medio,Medio,0.43195507,True,0.29093182,0.27711317,0.43195507
-male,group C,associate's degree,standard,none,Bajo,Medio,0.41344258,False,0.282384,0.30417332,0.41344258
-female,group A,some college,standard,completed,Medio,Medio,0.40390792,True,0.36999622,0.22609584,0.40390792
-female,group C,associate's degree,standard,none,Bajo,Medio,0.4573494,False,0.2894958,0.25315478,0.4573494
-male,group C,high school,free/reduced,none,Bajo,Medio,0.36802316,False,0.2714034,0.3605734,0.36802316
-female,group C,some college,standard,none,Medio,Medio,0.42468956,True,0.28049695,0.29481345,0.42468956
-male,group D,some college,standard,none,Medio,Medio,0.4023367,True,0.2973586,0.30030474,0.4023367
-male,group A,bachelor's degree,standard,none,Medio,Medio,0.38367918,True,0.28856692,0.32775387,0.38367918
-male,group E,some college,free/reduced,completed,Bajo,Medio,0.39315632,False,0.3710886,0.23575515,0.39315632
-female,group C,associate's degree,standard,none,Bajo,Medio,0.4573494,False,0.2894958,0.25315478,0.4573494
-male,group E,bachelor's degree,standard,completed,Medio,Medio,0.39791146,True,0.32579675,0.27629176,0.39791146
-female,group C,some high school,standard,completed,Bajo,Medio,0.39868012,False,0.38077655,0.22054331,0.39868012
-male,group A,bachelor's degree,standard,none,Medio,Medio,0.38367918,True,0.28856692,0.32775387,0.38367918
-female,group B,some college,free/reduced,completed,Medio,Medio,0.37637827,True,0.36150223,0.26211944,0.37637827
-female,group A,some college,standard,completed,Alto,Medio,0.40390792,False,0.36999622,0.22609584,0.40390792
-male,group D,bachelor's degree,free/reduced,completed,Bajo,Medio,0.37944174,False,0.29855704,0.32200125,0.37944174
-male,group B,some college,free/reduced,none,Medio,Medio,0.40907833,True,0.25921184,0.33170983,0.40907833
-male,group D,high school,free/reduced,none,Medio,Medio,0.4257964,True,0.2477529,0.32645068,0.4257964
-male,group B,high school,free/reduced,none,Bajo,Medio,0.39398858,False,0.24415475,0.36185667,0.39398858
-male,group E,associate's degree,free/reduced,none,Bajo,Medio,0.4042625,False,0.29768825,0.2980492,0.4042625
-male,group C,some college,standard,completed,Alto,Medio,0.38290727,False,0.32832336,0.2887693,0.38290727
-female,group D,bachelor's degree,free/reduced,none,Medio,Medio,0.41070575,True,0.28213003,0.30716422,0.41070575
-male,group D,some college,standard,completed,Medio,Medio,0.40973422,True,0.32920474,0.26106113,0.40973422
-female,group C,bachelor's degree,standard,completed,Alto,Medio,0.38212362,False,0.35268036,0.265196,0.38212362
-male,group E,some high school,free/reduced,completed,Alto,Medio,0.36795196,False,0.3641391,0.2679089,0.36795196
-female,group B,some high school,standard,none,Medio,Medio,0.418751,True,0.30407172,0.2771772,0.418751
-male,group D,associate's degree,standard,none,Medio,Medio,0.43237987,True,0.2955875,0.27203265,0.43237987
-male,group C,high school,standard,none,Medio,Medio,0.38355196,True,0.28653353,0.32991448,0.38355196
-female,group C,high school,free/reduced,none,Medio,Medio,0.41523618,True,0.2646466,0.32011718,0.41523618
-female,group B,associate's degree,free/reduced,none,Medio,Medio,0.4378136,True,0.30194157,0.26024485,0.4378136
-male,group D,high school,standard,none,Bajo,Medio,0.39963552,False,0.29362255,0.30674192,0.39963552
-female,group B,high school,standard,none,Medio,Medio,0.43195507,True,0.29093182,0.27711317,0.43195507
-male,group D,some college,standard,none,Medio,Medio,0.4023367,True,0.2973586,0.30030474,0.4023367
-female,group E,associate's degree,standard,none,Alto,Medio,0.42959127,False,0.32357353,0.24683514,0.42959127
-female,group C,high school,standard,none,Medio,Medio,0.4074697,True,0.27868184,0.31384838,0.4074697
-male,group B,some high school,standard,completed,Bajo,Alto,0.37252283,False,0.37252283,0.27334872,0.35412848
-female,group D,some college,free/reduced,none,Medio,Medio,0.40856835,True,0.29651535,0.2949163,0.40856835
-male,group D,some college,standard,completed,Medio,Medio,0.40973422,True,0.32920474,0.26106113,0.40973422
-female,group D,master's degree,free/reduced,none,Bajo,Medio,0.39853096,False,0.31389555,0.28757352,0.39853096
-male,group C,bachelor's degree,free/reduced,none,Medio,Medio,0.3850395,True,0.2795003,0.33546016,0.3850395
-male,group B,bachelor's degree,free/reduced,none,Bajo,Medio,0.380243,False,0.26258114,0.3571759,0.380243
-male,group A,associate's degree,free/reduced,completed,Bajo,Medio,0.4169602,False,0.26991817,0.31312162,0.4169602
-female,group A,high school,standard,completed,Medio,Medio,0.42286113,True,0.33365694,0.24348195,0.42286113
-female,group D,some high school,standard,none,Medio,Medio,0.41172352,True,0.31204018,0.27623627,0.41172352
-female,group D,some high school,free/reduced,completed,Bajo,Medio,0.40107605,False,0.32316336,0.2757606,0.40107605
-male,group D,high school,standard,completed,Bajo,Medio,0.4048394,False,0.32887104,0.2662895,0.4048394
-male,group E,some college,standard,none,Bajo,Medio,0.37596658,False,0.3014462,0.3225873,0.37596658
-male,group D,some high school,free/reduced,completed,Medio,Medio,0.3777581,True,0.29918423,0.32305765,0.3777581
-female,group C,master's degree,standard,completed,Medio,Medio,0.40700725,True,0.35381714,0.23917556,0.40700725
-male,group B,high school,standard,none,Bajo,Medio,0.40039882,False,0.2916205,0.30798075,0.40039882
-female,group B,high school,free/reduced,none,Bajo,Medio,0.43809077,False,0.26595488,0.2959544,0.43809077
-female,group B,associate's degree,standard,completed,Alto,Medio,0.41521227,False,0.35953152,0.22525628,0.41521227
-female,group D,associate's degree,standard,none,Medio,Medio,0.476216,True,0.2958863,0.22789769,0.476216
-male,group E,some high school,standard,none,Medio,Medio,0.35242122,True,0.3045913,0.34298754,0.35242122
-male,group D,high school,standard,none,Medio,Medio,0.39963552,True,0.29362255,0.30674192,0.39963552
-male,group E,high school,free/reduced,completed,Bajo,Medio,0.39063215,False,0.3577095,0.2516583,0.39063215
-female,group C,some college,standard,completed,Medio,Medio,0.40759033,True,0.36370635,0.2287033,0.40759033
-male,group C,master's degree,free/reduced,completed,Medio,Medio,0.37685058,True,0.27850005,0.34464937,0.37685058
-female,group D,some high school,standard,none,Alto,Medio,0.41172352,False,0.31204018,0.27623627,0.41172352
-female,group B,some high school,standard,none,Medio,Medio,0.418751,True,0.30407172,0.2771772,0.418751
-female,group E,some college,standard,none,Medio,Medio,0.4071757,True,0.30074003,0.29208437,0.4071757
-male,group A,associate's degree,free/reduced,completed,Alto,Medio,0.4169602,False,0.26991817,0.31312162,0.4169602
-female,group D,master's degree,standard,completed,Alto,Medio,0.41825017,False,0.3675568,0.21419302,0.41825017
-female,group E,master's degree,standard,completed,Alto,Medio,0.42039642,False,0.36863777,0.21096577,0.42039642
-female,group E,associate's degree,free/reduced,none,Medio,Medio,0.42668462,True,0.3085623,0.26475307,0.42668462
-male,group C,associate's degree,free/reduced,completed,Alto,Medio,0.43045807,False,0.29439926,0.2751427,0.43045807
-male,group C,associate's degree,standard,completed,Medio,Medio,0.41593975,True,0.3214151,0.26264513,0.41593975
-female,group C,master's degree,free/reduced,none,Bajo,Medio,0.41356117,False,0.28335622,0.3030827,0.41356117
-female,group C,associate's degree,standard,completed,Medio,Medio,0.4555443,True,0.33965844,0.20479718,0.4555443
-female,group C,high school,free/reduced,completed,Medio,Medio,0.40881723,True,0.32949108,0.26169172,0.40881723
-male,group C,bachelor's degree,standard,completed,Alto,Medio,0.36414787,False,0.33069068,0.30516148,0.36414787
-female,group D,bachelor's degree,free/reduced,completed,Alto,Medio,0.40033588,False,0.3143148,0.28534925,0.40033588
-male,group C,high school,standard,completed,Medio,Medio,0.36175048,True,0.32447138,0.31377813,0.36175048
-male,group C,associate's degree,free/reduced,none,Bajo,Medio,0.42145357,False,0.27505553,0.30349094,0.42145357
-female,group D,bachelor's degree,free/reduced,none,Medio,Medio,0.41070575,True,0.28213003,0.30716422,0.41070575
-female,group B,some high school,free/reduced,none,Bajo,Medio,0.4006604,False,0.29887375,0.30046585,0.4006604
-male,group B,associate's degree,free/reduced,completed,Medio,Medio,0.38995603,True,0.30488726,0.30515662,0.38995603
-female,group B,bachelor's degree,free/reduced,none,Medio,Medio,0.41349643,True,0.28710726,0.2993963,0.41349643
-female,group B,associate's degree,standard,completed,Medio,Medio,0.41521224,True,0.3595315,0.22525626,0.41521224
-male,group C,high school,standard,none,Bajo,Medio,0.38355196,False,0.28653353,0.32991448,0.38355196
-male,group C,high school,free/reduced,completed,Bajo,Medio,0.3630141,False,0.30467406,0.33231187,0.3630141
-female,group C,some college,standard,none,Alto,Medio,0.4246896,False,0.28049695,0.29481348,0.4246896
-male,group C,some high school,free/reduced,none,Medio,Medio,0.3721247,True,0.27582702,0.35204825,0.3721247
-female,group B,some college,free/reduced,completed,Medio,Medio,0.3763783,True,0.36150226,0.26211947,0.3763783
+female,group C,some high school,free/reduced,none,Bajo,Medio,0.42749155,False,0.27356458,0.29894382,0.42749155
+female,group C,some high school,standard,none,Medio,Medio,0.41338655,True,0.30337134,0.2832421,0.41338655
+female,group D,associate's degree,standard,none,Medio,Medio,0.47621685,True,0.29587996,0.22790326,0.47621685
+female,group B,some high school,standard,completed,Medio,Alto,0.38035974,False,0.38035974,0.2503127,0.36932757
+female,group E,some college,standard,none,Medio,Medio,0.4071538,True,0.30075282,0.2920933,0.4071538
+female,group C,bachelor's degree,standard,none,Medio,Medio,0.42433557,True,0.2795563,0.2961081,0.42433557
+male,group E,associate's degree,standard,none,Medio,Medio,0.39603022,True,0.3050657,0.2989041,0.39603022
+male,group C,some high school,standard,completed,Medio,Medio,0.3770898,True,0.33349654,0.2894136,0.3770898
+female,group D,some high school,free/reduced,none,Bajo,Medio,0.38695222,False,0.30710742,0.30594033,0.38695222
+male,group A,some high school,standard,completed,Medio,Medio,0.38163513,True,0.33329004,0.2850748,0.38163513
+male,group E,some high school,standard,completed,Alto,Medio,0.38049,False,0.3569207,0.26258928,0.38049
+female,group E,associate's degree,free/reduced,none,Medio,Medio,0.42667535,True,0.3085614,0.26476327,0.42667535
+female,group B,high school,standard,completed,Medio,Medio,0.4092376,True,0.34831515,0.24244721,0.4092376
+female,group B,high school,free/reduced,completed,Medio,Medio,0.42226222,True,0.3031476,0.27459005,0.42226222
+female,group D,associate's degree,standard,none,Medio,Medio,0.47621685,True,0.29587996,0.22790326,0.47621685
+female,group E,some college,free/reduced,completed,Bajo,Medio,0.38840678,False,0.38272312,0.2288701,0.38840678
+female,group E,high school,standard,completed,Medio,Medio,0.4298354,True,0.34654298,0.22362152,0.4298354
+male,group A,high school,standard,none,Bajo,Medio,0.3772547,False,0.29605937,0.3266859,0.3772547
+female,group D,associate's degree,standard,completed,Alto,Medio,0.44232062,False,0.37412325,0.18355612,0.44232062
+female,group E,bachelor's degree,standard,completed,Medio,Medio,0.40857664,True,0.36251625,0.22890712,0.40857664
+male,group C,some college,free/reduced,completed,Medio,Medio,0.3940331,True,0.3142756,0.2916913,0.3940331
+male,group B,some college,free/reduced,completed,Medio,Medio,0.41693598,True,0.2951912,0.2878728,0.41693598
+female,group E,bachelor's degree,standard,none,Medio,Medio,0.41346353,True,0.28878063,0.29775575,0.41346353
+female,group C,high school,standard,none,Medio,Medio,0.4074619,True,0.27868745,0.31385064,0.4074619
+female,group E,associate's degree,standard,completed,Alto,Medio,0.42503166,False,0.38879937,0.18616894,0.42503166
+female,group D,associate's degree,standard,none,Alto,Medio,0.47621685,False,0.29587996,0.22790326,0.47621685
+female,group C,master's degree,standard,none,Medio,Medio,0.39898512,True,0.30312732,0.29788765,0.39898512
+female,group D,master's degree,standard,none,Alto,Medio,0.43119857,False,0.30286396,0.26593748,0.43119857
+male,group A,high school,free/reduced,none,Bajo,Bajo,0.38143516,True,0.24386556,0.38143516,0.37469923
+female,group D,bachelor's degree,standard,none,Alto,Medio,0.44012523,False,0.2802948,0.27957997,0.44012523
+female,group A,high school,free/reduced,completed,Bajo,Medio,0.41750926,False,0.33733523,0.24515559,0.41750926
+male,group C,some college,standard,completed,Medio,Medio,0.38290197,True,0.32832655,0.28877145,0.38290197
+male,group A,some college,free/reduced,none,Bajo,Bajo,0.36573014,True,0.27655137,0.36573014,0.35771847
+female,group C,some college,standard,none,Medio,Medio,0.4246824,True,0.2805014,0.2948162,0.4246824
+female,group B,associate's degree,standard,none,Medio,Medio,0.43633977,True,0.31186253,0.2517976,0.43633977
+male,group D,some college,standard,none,Bajo,Medio,0.40233058,False,0.29736078,0.30030864,0.40233058
+female,group B,high school,standard,none,Bajo,Medio,0.4319475,False,0.29093522,0.2771173,0.4319475
+male,group D,some college,standard,none,Medio,Medio,0.40233058,True,0.29736078,0.30030864,0.40233058
+female,group B,high school,free/reduced,completed,Bajo,Medio,0.42226222,False,0.3031476,0.27459005,0.42226222
+male,group B,some high school,standard,completed,Medio,Alto,0.3725203,False,0.3725203,0.27335483,0.3541248
+male,group B,associate's degree,standard,none,Medio,Medio,0.4015413,True,0.28875396,0.30970472,0.4015413
+female,group D,some college,standard,none,Alto,Medio,0.41805568,False,0.30150875,0.2804356,0.41805568
+female,group C,bachelor's degree,free/reduced,completed,Medio,Medio,0.38507977,True,0.33436212,0.2805581,0.38507977
+female,group E,some college,standard,completed,Medio,Medio,0.4173373,True,0.36666274,0.21599998,0.4173373
+female,group E,associate's degree,standard,none,Bajo,Medio,0.4295814,False,0.32357767,0.24684088,0.4295814
+female,group B,bachelor's degree,free/reduced,none,Alto,Medio,0.41348833,False,0.2871092,0.2994025,0.41348833
+male,group C,some college,standard,none,Alto,Medio,0.4041541,False,0.2937936,0.30205232,0.4041541
+male,group D,associate's degree,free/reduced,none,Medio,Medio,0.44253635,True,0.24596527,0.31149828,0.44253635
+female,group C,associate's degree,standard,none,Alto,Medio,0.45734337,False,0.28949523,0.25316137,0.45734337
+female,group B,high school,standard,none,Bajo,Medio,0.4319475,False,0.29093522,0.2771173,0.4319475
+female,group D,some college,free/reduced,none,Bajo,Medio,0.40856087,False,0.2965136,0.29492557,0.40856087
+female,group A,some high school,standard,none,Bajo,Medio,0.37192816,False,0.33276355,0.29530826,0.37192816
+female,group B,associate's degree,standard,none,Medio,Medio,0.43633977,True,0.31186253,0.2517976,0.43633977
+male,group C,high school,standard,none,Medio,Medio,0.38354674,True,0.28653282,0.32992035,0.38354674
+male,group B,bachelor's degree,free/reduced,none,Bajo,Medio,0.38022867,False,0.26258585,0.3571855,0.38022867
+male,group D,some high school,standard,none,Alto,Medio,0.37779167,False,0.31008476,0.31212357,0.37779167
+male,group B,bachelor's degree,free/reduced,none,Medio,Medio,0.38022867,True,0.26258585,0.3571855,0.38022867
+female,group D,some college,free/reduced,none,Alto,Medio,0.40856087,False,0.2965136,0.29492557,0.40856087
+female,group E,master's degree,free/reduced,none,Alto,Medio,0.40634894,False,0.30813795,0.285513,0.40634894
+male,group D,high school,free/reduced,none,Bajo,Medio,0.42579305,False,0.24774906,0.32645792,0.42579305
+female,group E,associate's degree,standard,none,Alto,Medio,0.4295814,False,0.32357767,0.24684088,0.4295814
+male,group E,some high school,standard,completed,Bajo,Medio,0.38049,False,0.3569207,0.26258928,0.38049
+female,group D,master's degree,standard,completed,Medio,Medio,0.41824293,True,0.367563,0.21419406,0.41824293
+male,group E,some college,standard,completed,Alto,Medio,0.39222637,False,0.35561237,0.2521612,0.39222637
+male,group B,associate's degree,standard,completed,Alto,Medio,0.38669312,False,0.35239187,0.260915,0.38669312
+female,group D,high school,free/reduced,none,Bajo,Medio,0.44394448,False,0.27253297,0.2835226,0.44394448
+female,group B,high school,standard,none,Medio,Medio,0.4319475,True,0.29093522,0.2771173,0.4319475
+male,group C,associate's degree,standard,none,Bajo,Medio,0.41342816,False,0.28238633,0.3041855,0.41342816
+female,group A,some college,standard,completed,Medio,Medio,0.4038822,True,0.3700117,0.2261061,0.4038822
+female,group C,associate's degree,standard,none,Bajo,Medio,0.45734337,False,0.28949523,0.25316137,0.45734337
+male,group C,high school,free/reduced,none,Bajo,Medio,0.36802024,False,0.27140135,0.36057845,0.36802024
+female,group C,some college,standard,none,Medio,Medio,0.4246824,True,0.2805014,0.2948162,0.4246824
+male,group D,some college,standard,none,Medio,Medio,0.40233058,True,0.29736078,0.30030864,0.40233058
+male,group A,bachelor's degree,standard,none,Medio,Medio,0.38365912,True,0.28856945,0.3277714,0.38365912
+male,group E,some college,free/reduced,completed,Bajo,Medio,0.39314362,False,0.37109455,0.23576175,0.39314362
+female,group C,associate's degree,standard,none,Bajo,Medio,0.45734337,False,0.28949523,0.25316137,0.45734337
+male,group E,bachelor's degree,standard,completed,Medio,Medio,0.39790532,True,0.32580087,0.27629384,0.39790532
+female,group C,some high school,standard,completed,Bajo,Medio,0.3986786,False,0.38077405,0.22054732,0.3986786
+male,group A,bachelor's degree,standard,none,Medio,Medio,0.38365912,True,0.28856945,0.3277714,0.38365912
+female,group B,some college,free/reduced,completed,Medio,Medio,0.37637186,True,0.36150283,0.26212522,0.37637186
+female,group A,some college,standard,completed,Alto,Medio,0.4038822,False,0.3700117,0.2261061,0.4038822
+male,group D,bachelor's degree,free/reduced,completed,Bajo,Medio,0.3794442,False,0.29855093,0.32200482,0.3794442
+male,group B,some college,free/reduced,none,Medio,Medio,0.40906814,True,0.25921285,0.331719,0.40906814
+male,group D,high school,free/reduced,none,Medio,Medio,0.42579305,True,0.24774906,0.32645792,0.42579305
+male,group B,high school,free/reduced,none,Bajo,Medio,0.39398354,False,0.24415156,0.36186484,0.39398354
+male,group E,associate's degree,free/reduced,none,Bajo,Medio,0.40425166,False,0.29769132,0.29805696,0.40425166
+male,group C,some college,standard,completed,Alto,Medio,0.38290197,False,0.32832655,0.28877145,0.38290197
+female,group D,bachelor's degree,free/reduced,none,Medio,Medio,0.41069543,True,0.28213373,0.3071708,0.41069543
+male,group D,some college,standard,completed,Medio,Medio,0.40972584,True,0.32921284,0.2610613,0.40972584
+female,group C,bachelor's degree,standard,completed,Alto,Medio,0.38212,False,0.35267708,0.26520294,0.38212
+male,group E,some high school,free/reduced,completed,Alto,Medio,0.36795318,False,0.3641343,0.2679125,0.36795318
+female,group B,some high school,standard,none,Medio,Medio,0.41874006,True,0.30407563,0.27718437,0.41874006
+male,group D,associate's degree,standard,none,Medio,Medio,0.4323692,True,0.29559022,0.27204055,0.4323692
+male,group C,high school,standard,none,Medio,Medio,0.38354674,True,0.28653282,0.32992035,0.38354674
+female,group C,high school,free/reduced,none,Medio,Medio,0.4152175,True,0.26465064,0.32013175,0.4152175
+female,group B,associate's degree,free/reduced,none,Medio,Medio,0.43780938,True,0.3019428,0.26024777,0.43780938
+male,group D,high school,standard,none,Bajo,Medio,0.39962715,False,0.29362452,0.30674833,0.39962715
+female,group B,high school,standard,none,Medio,Medio,0.4319475,True,0.29093522,0.2771173,0.4319475
+male,group D,some college,standard,none,Medio,Medio,0.40233058,True,0.29736078,0.30030864,0.40233058
+female,group E,associate's degree,standard,none,Alto,Medio,0.4295814,False,0.32357767,0.24684088,0.4295814
+female,group C,high school,standard,none,Medio,Medio,0.4074619,True,0.27868745,0.31385064,0.4074619
+male,group B,some high school,standard,completed,Bajo,Alto,0.3725203,False,0.3725203,0.27335483,0.3541248
+female,group D,some college,free/reduced,none,Medio,Medio,0.40856087,True,0.2965136,0.29492557,0.40856087
+male,group D,some college,standard,completed,Medio,Medio,0.40972584,True,0.32921284,0.2610613,0.40972584
+female,group D,master's degree,free/reduced,none,Bajo,Medio,0.39851868,False,0.31389695,0.2875844,0.39851868
+male,group C,bachelor's degree,free/reduced,none,Medio,Medio,0.38503927,True,0.27950108,0.33545965,0.38503927
+male,group B,bachelor's degree,free/reduced,none,Bajo,Medio,0.38022867,False,0.26258585,0.3571855,0.38022867
+male,group A,associate's degree,free/reduced,completed,Bajo,Medio,0.41695657,False,0.26990646,0.3131369,0.41695657
+female,group A,high school,standard,completed,Medio,Medio,0.42284042,True,0.333666,0.24349348,0.42284042
+female,group D,some high school,standard,none,Medio,Medio,0.41172138,True,0.31203783,0.27624083,0.41172138
+female,group D,some high school,free/reduced,completed,Bajo,Medio,0.4010718,False,0.32315674,0.27577153,0.4010718
+male,group D,high school,standard,completed,Bajo,Medio,0.4048314,False,0.32887578,0.26629278,0.4048314
+male,group E,some college,standard,none,Bajo,Medio,0.37594962,False,0.3014586,0.3225918,0.37594962
+male,group D,some high school,free/reduced,completed,Medio,Medio,0.37776068,True,0.29917374,0.3230655,0.37776068
+female,group C,master's degree,standard,completed,Medio,Medio,0.40700278,True,0.35381567,0.23918149,0.40700278
+male,group B,high school,standard,none,Bajo,Medio,0.40039068,False,0.29162893,0.3079803,0.40039068
+female,group B,high school,free/reduced,none,Bajo,Medio,0.43808314,False,0.2659612,0.2959557,0.43808314
+female,group B,associate's degree,standard,completed,Alto,Medio,0.41520745,False,0.35953164,0.22526094,0.41520745
+female,group D,associate's degree,standard,none,Medio,Medio,0.47621685,True,0.29587996,0.22790326,0.47621685
+male,group E,some high school,standard,none,Medio,Medio,0.3524124,True,0.30459732,0.34299022,0.3524124
+male,group D,high school,standard,none,Medio,Medio,0.39962715,True,0.29362452,0.30674833,0.39962715
+male,group E,high school,free/reduced,completed,Bajo,Medio,0.39063165,False,0.35771355,0.2516548,0.39063165
+female,group C,some college,standard,completed,Medio,Medio,0.40758514,True,0.36370808,0.22870679,0.40758514
+male,group C,master's degree,free/reduced,completed,Medio,Medio,0.37684628,True,0.27849677,0.3446569,0.37684628
+female,group D,some high school,standard,none,Alto,Medio,0.41172138,False,0.31203783,0.27624083,0.41172138
+female,group B,some high school,standard,none,Medio,Medio,0.41874006,True,0.30407563,0.27718437,0.41874006
+female,group E,some college,standard,none,Medio,Medio,0.4071538,True,0.30075285,0.29209334,0.4071538
+male,group A,associate's degree,free/reduced,completed,Alto,Medio,0.41695657,False,0.26990646,0.31313688,0.41695657
+female,group D,master's degree,standard,completed,Alto,Medio,0.41824293,False,0.367563,0.21419406,0.41824293
+female,group E,master's degree,standard,completed,Alto,Medio,0.42037922,False,0.3686477,0.21097302,0.42037922
+female,group E,associate's degree,free/reduced,none,Medio,Medio,0.42667535,True,0.3085614,0.26476327,0.42667535
+male,group C,associate's degree,free/reduced,completed,Alto,Medio,0.43045166,False,0.29439414,0.2751542,0.43045166
+male,group C,associate's degree,standard,completed,Medio,Medio,0.41594,True,0.32140562,0.26265433,0.41594
+female,group C,master's degree,free/reduced,none,Bajo,Medio,0.41355136,False,0.2833585,0.30309016,0.41355136
+female,group C,associate's degree,standard,completed,Medio,Medio,0.4555426,True,0.3396565,0.2048008,0.4555426
+female,group C,high school,free/reduced,completed,Medio,Medio,0.4088264,True,0.32948592,0.2616876,0.4088264
+male,group C,bachelor's degree,standard,completed,Alto,Medio,0.3641449,False,0.33068517,0.3051699,0.3641449
+female,group D,bachelor's degree,free/reduced,completed,Alto,Medio,0.4003466,False,0.31430948,0.28534386,0.4003466
+male,group C,high school,standard,completed,Medio,Medio,0.36174622,True,0.32447374,0.31377998,0.36174622
+male,group C,associate's degree,free/reduced,none,Bajo,Medio,0.42144516,False,0.27504843,0.3035064,0.42144516
+female,group D,bachelor's degree,free/reduced,none,Medio,Medio,0.41069543,True,0.28213373,0.3071708,0.41069543
+female,group B,some high school,free/reduced,none,Bajo,Medio,0.400655,False,0.2988755,0.30046946,0.400655
+male,group B,associate's degree,free/reduced,completed,Medio,Medio,0.38995644,True,0.30487743,0.30516613,0.38995644
+female,group B,bachelor's degree,free/reduced,none,Medio,Medio,0.41348833,True,0.2871092,0.2994025,0.41348833
+female,group B,associate's degree,standard,completed,Medio,Medio,0.41520745,True,0.35953164,0.22526094,0.41520745
+male,group C,high school,standard,none,Bajo,Medio,0.38354677,False,0.28653285,0.32992038,0.38354677
+male,group C,high school,free/reduced,completed,Bajo,Medio,0.3630139,False,0.3046683,0.33231777,0.3630139
+female,group C,some college,standard,none,Alto,Medio,0.4246824,False,0.2805014,0.2948162,0.4246824
+male,group C,some high school,free/reduced,none,Medio,Medio,0.3721171,True,0.27582762,0.3520553,0.3721171
+female,group B,some college,free/reduced,completed,Medio,Medio,0.37637192,True,0.3615029,0.26212522,0.37637192
