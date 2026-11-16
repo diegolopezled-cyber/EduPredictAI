@@ -86,12 +86,16 @@ def add_box(ax, x, y, width, height, title, body, color="#EAF2FF", body_size=8.2
         transform=ax.transAxes
     )
     ax.add_patch(patch)
-    ax.text(x+.015, y+height-.025, title, transform=ax.transAxes,
-            fontsize=12, fontweight="bold", color="#12385B", va="top")
-    wrap_width = max(28, int(width*105))
+    center_x = x + width / 2
+    ax.text(center_x, y+height-.023, title, transform=ax.transAxes,
+            fontsize=12, fontweight="bold", color="#12385B",
+            va="top", ha="center")
+    wrap_width = max(26, int(width*96))
     wrapped = "\n".join(textwrap.fill(p, width=wrap_width) for p in str(body).split("\n"))
-    ax.text(x+.015, y+height-.060, wrapped, transform=ax.transAxes,
-            fontsize=body_size, color="#263238", va="top", linespacing=1.22)
+    if str(body).strip():
+        ax.text(center_x, y+height-.060, wrapped, transform=ax.transAxes,
+                fontsize=body_size, color="#263238", va="top", ha="center",
+                linespacing=1.18)
 
 def create_poster(team, app_url, video_url, app_preview=None):
     fig = plt.figure(figsize=(11.69,16.54), dpi=150, facecolor="#F6F9FC")
@@ -102,10 +106,10 @@ def create_poster(team, app_url, video_url, app_preview=None):
     best=max(comparison,key=lambda r:r.get("f1_macro",-1)) if comparison else {"modelo":"N/D","f1_macro":0}
 
     ax.add_patch(plt.Rectangle((0,.915),1,.085,color="#12385B",transform=ax.transAxes))
-    ax.text(.035,.965,"EDUPREDICT AI",fontsize=29,fontweight="bold",color="white",va="center",transform=ax.transAxes)
-    ax.text(.035,.932,"Predicción temprana del rendimiento escolar con una red neuronal MLP",
-            fontsize=12.5,color="#DDEBFF",va="center",transform=ax.transAxes)
-    ax.text(.965,.932,f"Integrantes: {safe_text(team)}",fontsize=8.5,color="white",ha="right",va="center",transform=ax.transAxes)
+    ax.text(.5,.966,"EDUPREDICT AI",fontsize=29,fontweight="bold",color="white",va="center",ha="center",transform=ax.transAxes)
+    ax.text(.5,.935,"Predicción temprana del rendimiento escolar con una red neuronal MLP",
+            fontsize=12.5,color="#DDEBFF",va="center",ha="center",transform=ax.transAxes)
+    ax.text(.5,.918,f"Integrantes: {safe_text(team)}",fontsize=8.0,color="white",ha="center",va="bottom",transform=ax.transAxes)
 
     add_box(ax,.035,.785,.445,.105,"Objetivo general",
         "Desarrollar un pipeline reproducible que clasifique el rendimiento en Bajo, Medio o Alto usando variables socioeducativas; comparar un MLP con modelos de referencia mediante F1 macro y desplegar la inferencia en Streamlit.","#EAF2FF")
@@ -127,7 +131,7 @@ def create_poster(team, app_url, video_url, app_preview=None):
         if i<len(steps)-1:
             ax.annotate("",xy=(x+box_w+gap*.85,.564),xytext=(x+box_w+.002,.564),
                         arrowprops=dict(arrowstyle="->",color="#C47F00",lw=1.2),xycoords=ax.transAxes,textcoords=ax.transAxes)
-    ax.text(.055,.523,"Etiqueta: promedio < 60 = Bajo | 60 a < 80 = Medio | ≥ 80 = Alto",fontsize=8,color="#5E4B00",transform=ax.transAxes)
+    ax.text(.5,.523,"Etiqueta: promedio < 60 = Bajo | 60 a < 80 = Medio | ≥ 80 = Alto",fontsize=8,color="#5E4B00",ha="center",transform=ax.transAxes)
 
     add_box(ax,.035,.365,.445,.125,"Arquitectura empleada: MLP",
         "MLP seleccionado porque el dataset es tabular. Dense 128 + ReLU + L2 → BatchNorm → Dropout 0.30 → Dense 64 + ReLU + L2 → BatchNorm → Dropout 0.20 → Dense 32 + ReLU → Softmax(3).","#F1ECFF",8.0)
@@ -142,7 +146,7 @@ def create_poster(team, app_url, video_url, app_preview=None):
         chart.tick_params(axis="both",labelsize=7); chart.grid(axis="x",alpha=.2)
 
     add_box(ax,.52,.215,.445,.125,"Vista previa de la aplicación Streamlit","","#EAF2FF")
-    preview=fig.add_axes([.545,.235,.395,.075]); preview.axis("off")
+    preview=fig.add_axes([.545,.222,.395,.066]); preview.axis("off")
     if app_preview is not None:
         try:
             image = Image.open(app_preview).convert("RGB")
@@ -153,10 +157,10 @@ def create_poster(team, app_url, video_url, app_preview=None):
     else:
         preview.add_patch(plt.Rectangle((0,0),1,1,facecolor="white",edgecolor="#8AA8C7"))
         preview.add_patch(plt.Rectangle((0,.78),1,.22,facecolor="#12385B"))
-        preview.text(.04,.89,"EduPredict AI",color="white",fontsize=10,fontweight="bold",va="center")
-        preview.text(.04,.62,"Predicción individual",fontsize=8,fontweight="bold")
-        preview.text(.04,.32,"Formulario socioeducativo  →  Nivel + probabilidades",fontsize=7)
-        preview.text(.04,.12,"Predicción | Métricas | Póster",fontsize=7,color="#415A77")
+        preview.text(.5,.89,"EduPredict AI",color="white",fontsize=10,fontweight="bold",va="center",ha="center")
+        preview.text(.5,.62,"Predicción individual",fontsize=8,fontweight="bold",ha="center")
+        preview.text(.5,.32,"Formulario socioeducativo  →  Nivel + probabilidades",fontsize=7,ha="center")
+        preview.text(.5,.12,"Predicción | Métricas | Póster",fontsize=7,color="#415A77",ha="center")
 
     add_box(ax,.035,.075,.58,.125,"Conclusiones",
         f"{best.get('modelo','N/D')} obtuvo el mayor F1 macro en la comparación. La predicción interactiva usa el MLP guardado como best_mlp_model.keras. Es un prototipo académico; para uso real requiere validación externa, calibración, análisis de sesgos y supervisión humana.","#FFF0F0",8.0)
@@ -165,11 +169,6 @@ def create_poster(team, app_url, video_url, app_preview=None):
 
     buffer=io.BytesIO(); fig.savefig(buffer,format="png",dpi=180,bbox_inches="tight",facecolor=fig.get_facecolor())
     plt.close(fig); buffer.seek(0); return buffer
-
-# Valores predeterminados del póster.
-DEFAULT_TEAM = "Diego Fernando López Ledezma"
-DEFAULT_APP_URL = "https://edupred-dfl.streamlit.app/"
-DEFAULT_VIDEO_URL = "https://drive.google.com/file/d/11qQHwck-XHX78KtASFTIWsoSlZp6euRB/view?usp=sharing"
 
 st.title("🎓 EduPredict AI")
 st.caption("Sistema académico demostrativo de predicción temprana del rendimiento escolar")
@@ -205,12 +204,9 @@ with tab2:
 with tab3:
     st.subheader("Póster sintético tipo Infografía")
     st.markdown("El póster integra **integrantes, objetivo, problema/pregunta, dataset, metodología, arquitectura, métricas/resultados, vista previa, conclusiones y enlaces**.")
-    team=st.text_input("Nombres de integrantes", value=DEFAULT_TEAM,
-                       placeholder="Nombre 1, Nombre 2, ...", max_chars=140)
-    app_url=st.text_input("Enlace de la aplicación", value=DEFAULT_APP_URL,
-                          placeholder="https://...streamlit.app", max_chars=250)
-    video_url=st.text_input("Enlace del video", value=DEFAULT_VIDEO_URL,
-                            placeholder="https://...", max_chars=250)
+    team=st.text_input("Nombres de integrantes",placeholder="Nombre 1, Nombre 2, ...",max_chars=140)
+    app_url=st.text_input("Enlace de la aplicación",placeholder="https://...streamlit.app",max_chars=250)
+    video_url=st.text_input("Enlace del video",placeholder="https://...",max_chars=250)
     app_preview=st.file_uploader("Captura de la aplicación para el póster (opcional)",type=["png","jpg","jpeg"])
     if app_preview is not None and app_preview.size > 5 * 1024 * 1024:
         st.error("La captura no debe superar 5 MB.")
