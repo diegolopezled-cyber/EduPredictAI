@@ -170,6 +170,11 @@ def create_poster(team, app_url, video_url, app_preview=None):
     buffer=io.BytesIO(); fig.savefig(buffer,format="png",dpi=180,bbox_inches="tight",facecolor=fig.get_facecolor())
     plt.close(fig); buffer.seek(0); return buffer
 
+    # Valores predeterminados del póster.
+DEFAULT_TEAM = "Diego Fernando López Ledezma"
+DEFAULT_APP_URL = "https://edupred-dfl.streamlit.app/"
+DEFAULT_VIDEO_URL = "https://drive.google.com/file/d/11qQHwck-XHX78KtASFTIWsoSlZp6euRB/view?usp=sharing"
+
 st.title("🎓 EduPredict AI")
 st.caption("Sistema académico demostrativo de predicción temprana del rendimiento escolar")
 tab1,tab2,tab3=st.tabs(["Predicción individual","Métricas","Póster tipo Infografía"])
@@ -204,9 +209,12 @@ with tab2:
 with tab3:
     st.subheader("Póster sintético tipo Infografía")
     st.markdown("El póster integra **integrantes, objetivo, problema/pregunta, dataset, metodología, arquitectura, métricas/resultados, vista previa, conclusiones y enlaces**.")
-    team=st.text_input("Nombres de integrantes",placeholder="Nombre 1, Nombre 2, ...",max_chars=140)
-    app_url=st.text_input("Enlace de la aplicación",placeholder="https://...streamlit.app",max_chars=250)
-    video_url=st.text_input("Enlace del video",placeholder="https://...",max_chars=250)
+    team=st.text_input("Nombres de integrantes", value=DEFAULT_TEAM,
+                       placeholder="Nombre 1, Nombre 2, ...", max_chars=140)
+    app_url=st.text_input("Enlace de la aplicación", value=DEFAULT_APP_URL,
+                          placeholder="https://...streamlit.app", max_chars=250)
+    video_url=st.text_input("Enlace del video", value=DEFAULT_VIDEO_URL,
+                            placeholder="https://...", max_chars=250)
     app_preview=st.file_uploader("Captura de la aplicación para el póster (opcional)",type=["png","jpg","jpeg"])
     if app_preview is not None and app_preview.size > 5 * 1024 * 1024:
         st.error("La captura no debe superar 5 MB.")
